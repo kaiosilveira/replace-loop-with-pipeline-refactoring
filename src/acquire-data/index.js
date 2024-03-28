@@ -2,8 +2,8 @@ export function acquireData(input) {
   const lines = input.split('\n');
   let firstLine = true;
   let result = [];
-
-  for (const line of lines) {
+  const loopLines = lines;
+  for (const line of loopLines) {
     if (firstLine) {
       firstLine = false;
       continue;
