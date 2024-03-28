@@ -1,6 +1,5 @@
 export function acquireData(input) {
   const lines = input.split('\n');
-  let firstLine = true;
   let result = [];
   const loopLines = lines.slice(1);
   for (const line of loopLines) {
