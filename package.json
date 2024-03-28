@@ -1,14 +1,15 @@
 {
   "type": "module",
-  "name": "refactoring-catalog-template",
+  "name": "replace-loop-with-pipeline",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/kaiosilveira/refactoring-catalog-template.git",
+  "repository": "https://github.com/kaiosilveira/replace-loop-with-pipeline-refactoring.git",
   "author": "Kaio Silveira <silveira.kaio@icloud.com>",
   "license": "MIT",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest /src --passWithNoTests",
-    "tools:cli": "npx @kaiosilveira/refactoring-catalog-cli"
+    "tools:cli": "npx @kaiosilveira/refactoring-catalog-cli",
+    "start": "node --experimental-vm-modules src/index.js"
   },
   "devDependencies": {
     "jest": "^29.0.3",
